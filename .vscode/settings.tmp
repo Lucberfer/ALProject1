@@ -1,0 +1,101 @@
+{
+  "al.codeAnalyzers": [                               // Analizadores de código.
+    "${analyzerFolder}BusinessCentral.LinterCop.dll", // Analizador BusinessCentral.LinterCop.
+    "${CodeCop}",                                     // Analizador CodeCop.
+    "${PerTenantExtensionCop}",                       // Analizador PerTenantExtensionCop.
+    "${UICop}"                                        // Analizador UICop.
+  ],
+  "al.compilationOptions": {                          // Opciones de compilación.
+    "parallel": true                                  // Compilación en paralelo.
+  },
+  "al.enableCodeActions": true,                       // Habilitar acciones de código.
+  "al.enableCodeAnalysis": true,                      // Habilitar análisis de código.
+
+  "alOutline.codeCleanupActions": [          // Acciones de limpieza de código.
+    "AddApplicationAreas",                   // Agregar áreas de aplicación.
+    "AddMissingParentheses",                 // Agregar paréntesis faltantes.
+    "CollapseEmptyBrackets",                 // Colapsar corchetes vacíos.
+    "ConvertObjectIdsToNames",               // Convertir identificadores en nombres.
+    "FixIdentifiersCase",                    // Corregir identificadores.
+    "FixKeywordsCase",                       // Corregir palabras clave.
+    "FormatDocument",                        // Formatear documento.
+    "RemoveBeginEnd",                        // Eliminar begin...end.
+    "RemoveEmptyLines",                      // Eliminar líneas vacías.
+    "RemoveEmptySections",                   // Eliminar secciones vacías.
+    "RemoveEmptyTriggers",                   // Eliminar disparadores vacíos.
+    "RemoveProceduresSemicolon",             // Eliminar punto y coma de procedimientos.
+    "RemoveRedundantAppAreas",               // Eliminar áreas de aplicación redundantes.
+    "RemoveRedundantDataClassification",     // Eliminar clasificación de datos redundante.
+    "RemoveUnusedVariables",                 // Eliminar variables no utilizadas.
+    "RemoveWithStatements",                  // Eliminar declaraciones WITH.
+    "SortCustomizations",                    // Ordenar personalizaciones.
+    "SortProcedures",                        // Ordenar procedimientos.
+    "SortProperties",                        // Ordenar propiedades.
+    "SortTableFields",                       // Ordenar campos de tabla.
+    "SortTriggers",                          // Ordenar disparadores.
+    "SortVariables"                          // Ordenar variables.
+  ],
+
+  "linterCop.autoDownload": true, // Descargar actualizaciones de la librería automáticamente.
+
+  "codesnap.backgroundColor": "transparent",               // Color de fondo.
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 2px 8px", // Sombra del cuadro.
+  "codesnap.containerPadding": "1em",                      // Relleno del contenedor.
+  "codesnap.realLineNumbers": true,                        // Números de línea reales.
+  "codesnap.showWindowControls": false,                    // Mostrar los controles de la ventana.
+  "codesnap.showWindowTitle": true,                        // Mostrar el título de la ventana.
+  "codesnap.transparentBackground": true,                  // Fondo transparente.
+
+  "todo-tree.general.tags": [                // Etiquetas personalizadas.
+    " info ",                                // Etiqueta de información.
+    " todo ",                                // Etiqueta de tarea pendiente.
+    " warn "                                 // Etiqueta de advertencia.
+  ],
+  "todo-tree.highlights.defaultHighlight": { // Resaltado predeterminado.
+    "borderRadius": "1em",                   // Bordes redondeados.
+    "gutterIcon": true,                      // Mostrar icono en el margen.
+    "type": "tag"                            // Resaltar etiquetas.
+  },
+  "todo-tree.highlights.customHighlight": {  // Resaltado personalizado.
+    " info ": {                              // Resaltado de la etiqueta de información.
+      "background": "#09f",                  // Usar fondo azul.
+      "foreground": "#fff",                  // Usar texto blanco.
+      "icon": "info",                        // Usar icono de información.
+      "iconColour": "#09f"                   // Usar icono azul.
+    },
+    " todo ": {                              // Resaltado de la etiqueta de tarea pendiente.
+      "background": "#fff",                  // Usar fondo blanco.
+      "foreground": "#000",                  // Usar texto negro.
+      "icon": "checklist",                   // Usar icono de lista de verificación.
+      "iconColour": "#fff"                   // Usar icono blanco.
+    },
+    " warn ": {                              // Resaltado de la etiqueta de advertencia.
+      "background": "#fc0",                  // Usar fondo amarillo.
+      "foreground": "#000",                  // Usar texto negro.
+      "icon": "alert",                       // Usar icono de advertencia.
+      "iconColour": "#fc0"                   // Usar icono amarillo.
+    }
+  },
+
+  "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",                   // Plantilla de nombre de archivo.
+  "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",         // Plantilla de nombre de archivo para extensiones.
+  "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al", // Plantilla de nombre de archivo para personalizaciones de página.
+  "CRS.ObjectNameSuffix": "_LDR",                                                              // Sufijo de nombre de objeto.
+  "CRS.OnSaveAlFileAction": "Rename",                                                          // Acción al guardar un archivo AL.
+  "CRS.RenameWithGit": true,                                                                   // Renombrar con Git.
+
+  "gitlens.plusFeatures.enabled": false, // Deshabilitar las funciones premium de GitLens.
+
+  /* Editor */
+  "editor.colorDecorators": false,                        // Deshabilitar los decoradores de color.
+  "editor.detectIndentation": false,                      // Deshabilitar la detección de sangría.
+  "editor.minimap.side": "left",                          // Desplazar el minimapa a la izquierda.
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",                // Usar Ctrl/Cmd para agregar múltiples cursores.
+  "editor.stickyScroll.defaultModel": "indentationModel", // Usar el modelo de sangría para el desplazamiento adhesivo.
+  "editor.tabSize": 2,                                    // Usar 2 espacios para la sangría.
+
+  /* Workbench */
+  "workbench.activityBar.location": "top",                // Desplazar la barra de actividades a la parte superior.
+  "workbench.sideBar.location": "right"                   // Desplazar la barra lateral a la derecha.
+}

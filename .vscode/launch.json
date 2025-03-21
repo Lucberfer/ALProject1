@@ -1,6 +1,7 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "Publish: Your own server",
             "type": "al",
@@ -9,8 +10,8 @@
             "server": "http://localhost:8080/BC252",
             "serverInstance": "BC252",
             "authentication": "Windows",
-            //"startupObjectId": 22,
-            //startupObjectType": "Page",
+            "startupObjectId": 130401,
+            "startupObjectType": "Page",
             "breakOnError": "All",
             "breakOnRecordWrite": "None",
             "launchBrowser": true,
@@ -19,7 +20,8 @@
             "longRunningSqlStatementsThreshold": 500,
             "numberOfSqlStatements": 10,
             "tenant": "default",
-            "usePublicURLFromServer":true
+            "usePublicURLFromServer":true,
+            //"schemaUpdateMode": "ForceSync"
         }
        
     ]
