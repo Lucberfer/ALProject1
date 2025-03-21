@@ -3,50 +3,25 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ALProject1">
     <body>
       <group id="body">
-        <trans-unit id="Report 1366123542 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2417985374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer List Extended</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer_List_Ext_LDR - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1366123542 - ReportColumn 3168444338 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Address</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - ReportColumn Address - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1366123542 - ReportColumn 25700210 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Balance</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - ReportColumn Balance - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1366123542 - ReportColumn 714791889 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>City</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - ReportColumn City - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1366123542 - ReportColumn 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer Name</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - ReportColumn Name - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1366123542 - ReportColumn 1066792394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer No.</source>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - ReportColumn No_ - Property Caption</note>
-        </trans-unit>
-        <trans-unit id="Report 1366123542 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2417985374 - Control 2346885236 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Options</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - Control Options - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer_List_Ext_LDR - Control Options - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 1366123542 - Control 4125826265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2417985374 - Control 4125826265 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies if the customer balance should be shown in the report.</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - Control ShowBalanceField - Property ToolTip</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer_List_Ext_LDR - Control ShowBalanceField - Property ToolTip</note>
         </trans-unit>
-        <trans-unit id="Report 1366123542 - Control 4125826265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 2417985374 - Control 4125826265 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Show Balance</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Customer List Ext_LDR - Control ShowBalanceField - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Customer_List_Ext_LDR - Control ShowBalanceField - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 946989276 - Control 1280182726 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2789319530">
           <source>Especifica el número de correduría de seguro</source>
@@ -64,7 +39,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ClipIns InsuranceExt_LDR - Field ClipInsAlert_LDR - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 1257521824 - Field 1280182726 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1538464910">
-          <source>ClipInsBrokerageVendorNo_LDR</source>
+          <source>Brokerage Vendor No.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ClipIns InsuranceExt_LDR - Field ClipInsBrokerageVendorNo_LDR - Property Caption</note>
         </trans-unit>
@@ -73,10 +48,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ClipIns InsuranceExt_LDR - Field ClipInsNotice_LDR - Property Caption</note>
         </trans-unit>
-        <trans-unit id="PermissionSet 4111559037 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Permisos CustomerList</source>
+        <trans-unit id="PermissionSet 4285830208 - Property 2879900210" maxwidth="30" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generated Permission</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet CustomerList_LDR - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PermissionSet GeneratedPermission - Property Caption</note>
         </trans-unit>
       </group>
     </body>

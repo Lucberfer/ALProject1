@@ -64,23 +64,23 @@ End Function
   <DataSets>
     <DataSet Name="DataSet_Result">
       <Fields>
-        <Field Name="No_">
-          <DataField>No_</DataField>
+        <Field Name="Address_LDR">
+          <DataField>Address_LDR</DataField>
         </Field>
-        <Field Name="Name">
-          <DataField>Name</DataField>
+        <Field Name="Balance_LDR">
+          <DataField>Balance_LDR</DataField>
         </Field>
-        <Field Name="Address">
-          <DataField>Address</DataField>
+        <Field Name="Balance_LDRFormat">
+          <DataField>Balance_LDRFormat</DataField>
         </Field>
-        <Field Name="City">
-          <DataField>City</DataField>
+        <Field Name="City_LDR">
+          <DataField>City_LDR</DataField>
         </Field>
-        <Field Name="Balance">
-          <DataField>Balance</DataField>
+        <Field Name="Name_LDR">
+          <DataField>Name_LDR</DataField>
         </Field>
-        <Field Name="BalanceFormat">
-          <DataField>BalanceFormat</DataField>
+        <Field Name="No__LDR">
+          <DataField>No__LDR</DataField>
         </Field>
       </Fields>
       <Query>
